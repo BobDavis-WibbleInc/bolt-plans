@@ -1,0 +1,25 @@
+groups:
+  - name: linux
+    targets:
+      - puppet.lan
+      - rhel8.lan
+    config:
+      transport: ssh
+      ssh:
+        user: root
+        private-key: /home/bob/.ssh/id_rsa
+  # - name: windows
+  #   targets:
+  #     - name: win1
+  #       uri: target3.example.com
+  #     - name: win2
+  #       uri: target4.example.com
+  #   config:
+  #     transport: winrm
+config:
+  ssh:
+    host-key-check: false
+  # winrm:
+  #   user: Administrator
+  #   password: Bolt!
+  #   ssl: false
