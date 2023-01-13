@@ -1,0 +1,6 @@
+{
+    "description": "outpur a message using bash",
+    "private": true,
+    "input_method": "environment",
+    "parameters": {}
+}

@@ -1,5 +1,5 @@
 ---
-name: bdproj
+name: ossg
 modules: []
 # steps:
 #   - command: hostname -f
