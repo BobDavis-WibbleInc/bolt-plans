@@ -1,9 +1,9 @@
 ---
 name: bdproj
 modules: []
-steps:
-  - command: hostname -f
-    targets:
-      - puppet.lan
-      - rhel8.lan
-    description: "Get the hostnames"
+# steps:
+#   - command: hostname -f
+#     targets:
+#       - puppet.lan
+#       - rhel8.lan
+#     description: "Get the hostnames"
