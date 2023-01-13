@@ -14,6 +14,7 @@ plan ossg::plan1(
 
    #run_task('service', 'cockpit'=> "status", 'name' => "cockpit" )
    run_task('service', $puppet_master, 'action' => "status", 'name' => "cockpit" )
+   
   }
 
 # puppet task run service action=status name=cockpit --nodes rhel8.lan
